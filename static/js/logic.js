@@ -48,7 +48,6 @@ const baseMaps = {
 const earthquakes = new L.layerGroup();
 const tectonicPlates = new L.layerGroup();
 
-
 // Create overlay object to hold our overlay layer
 const overlayMaps = {
   "Earthquakes": earthquakes,
@@ -76,7 +75,6 @@ L.control.layers(baseMaps, overlayMaps, {
 d3.json(queryUrl).then(function (data) {
   // Once we get a response, send the data.features object to the createFeatures function
   console.log(data);
-
 
   // Create function to get radius - getRadius - all earthquake in this dataset is magnitude 1 or larger
   function getRadius(magnitude) {
