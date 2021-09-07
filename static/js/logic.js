@@ -1,5 +1,5 @@
 // Start of the USGS Earthquake data - Using Day 1 - Activity 10
-console.log("nithiya");
+// console.log("nithiya");
 
 // Store our API endpoint inside queryUrl
 const queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojson";
